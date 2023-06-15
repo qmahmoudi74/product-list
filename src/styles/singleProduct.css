@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+}
