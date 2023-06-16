@@ -8,15 +8,19 @@
   </head>
 
   <body>
-    <main class="main-wrapper">
-      <aside class="main-aside">aside</aside>
-      <section class="main-listing">
-        <ol id="list" class="product-list">
-          {{  }}
-        </ol>
+    <main>
+      <input type="text" id="search" />
+
+      <section class="main-wrapper">
+        <aside class="main-aside">aside</aside>
+        <section class="main-listing">
+          <ol id="list" class="product-list"></ol>
+
+          <ol id="pagination" class="pagination"></ol>
+        </section>
       </section>
     </main>
 
-    <script src="scripts/listing.js"></script>
+    <script type="module" src="scripts/listing.js"></script>
   </body>
 </html>

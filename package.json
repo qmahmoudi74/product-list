@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "update-db": "node script.js"
+    "update-db": "node script.js",
+    "start-server": "json-server --watch db.json"
   },
   "keywords": [],
   "author": "",
